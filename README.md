@@ -20,7 +20,14 @@ The application operates as follows:
 
 **Note:** During the first launch, there may be substantial downloads, so please be prepared for this process to take some time.
 
-If you encounter any issues during installation or usage of the application, feel free to open an issue on [GitHub](https://github.com/LyFl0w/TextureMaker/issues).
+## Limitations
+
+- Texture generation is currently limited to 2D items. This means it does not include textures for blocks or mobs.
+
+**Future Enhancements:** In the future, we plan to add a LoRa model for blocks. If you are interested in contributing to the project, feel free to add a LoRa for blocks or improve the existing [LoRA](https://github.com/Jack-Bagel/Minecraft-Lora-Training) for item texture.
+
+If you encounter any issues during installation or usage of the application, feel free to open an issue on [GitHub](https://github.com/your-username/your-project/issues).
+
 
 ## License
 
