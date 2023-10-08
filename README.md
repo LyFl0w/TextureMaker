@@ -17,6 +17,7 @@ The application operates as follows:
 1. Download the `launcher` script corresponding to your operating system from the "Releases" section on GitHub.
 2. Run the script (`launcher.bat` on Windows or `launcher.bash` on Linux).
 3. Follow the steps provided in the launcher.
+4. If you don't have a dedicated graphics card, add `--skip-torch-cuda-test` in the process file (`process.bat` on Windows or `process.bash` on Linux), this is a file generated when executing the launcher script.
 
 **Note:** During the first launch, there may be substantial downloads, so please be prepared for this process to take some time.
 
