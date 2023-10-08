@@ -2,16 +2,6 @@
 
 Texture Maker is a Python program that utilizes the Stable Diffusion API (webui) and a LoRa available on [this repository](https://github.com/Jack-Bagel/Minecraft-Lora-Training) to generate 64x64 textures for Minecraft.
 
-## How It Works
-
-The application operates as follows:
-
-1. The `launcher` script launches a Python program that allows the user to create an image with text.
-2. The text and image are sent to the Stable Diffusion API, which returns a texture in 256x256 with a green background.
-3. The Python program retrieves this texture, removes the green background, and saves it in the `output` folder.
-
-**Important Note:** There may be issues when removing colors if the image you want to generate contains green. For instance, if you enter "green flower," it could pose problems. In such cases, it is recommended to generate a flower you like with a color like red or blue and then colorize it green using a filter in an image editing application.
-
 ## Installation
 
 1. Download the `launcher` script corresponding to your operating system from the "Releases" section on GitHub.
@@ -21,6 +11,16 @@ The application operates as follows:
 5. If it still doesn't work try deleting the `--xformers` argument in the same file.
 
 **Note:** During the first launch, there may be substantial downloads, so please be prepared for this process to take some time.
+
+## How It Works
+
+The application operates as follows:
+
+1. The `launcher` script launches a Python program that allows the user to create an image with text.
+2. The text and image are sent to the Stable Diffusion API, which returns a texture in 256x256 with a green background.
+3. The Python program retrieves this texture, removes the green background, and saves it in the `output` folder.
+
+**Important Note:** There may be issues when removing colors if the image you want to generate contains green. For instance, if you enter "green flower," it could pose problems. In such cases, it is recommended to generate a flower you like with a color like red or blue and then colorize it green using a filter in an image editing application.
 
 ## Limitations
 
