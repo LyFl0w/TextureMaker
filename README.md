@@ -17,7 +17,7 @@ Texture Maker is a Python program that utilizes the Stable Diffusion API (webui)
 The application operates as follows:
 
 1. The `launcher` script download Python 3.10.6, Git (if you don't git installed), clone [SD-WEBUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and the LoRA, and finally launches a Python program that allows the user to communicate with SD-WEBUI API to create custom texture.
-2. The text and image are sent to the Stable Diffusion API, which returns a texture in 256x256 with a green background.
+2. The text are sent to the Stable Diffusion API, which returns a texture in 256x256 with a green background.
 3. The Python program retrieves this texture, removes the green background, and saves it in the `output` folder.
 
 **Important Note:** There may be issues when removing colors if the image you want to generate contains green. For instance, if you enter "green flower," it could pose problems. In such cases, it is recommended to generate a flower you like with a color like red or blue and then colorize it green using a filter in an image editing application.
