@@ -66,14 +66,14 @@ if not %errorlevel% equ 0 (
 		cls
 		
 		echo Download Lora
-		move ".\utils\Lora" ".\%github_repo_name%\models"*
+		move ".\utils\Lora" ".\%github_repo_name%\models"
 		cls
 		
 		(
 		echo @echo off
 		echo set PYTHON=%cd%\python_3_10_6\python
 		echo set GIT=%cd%\PortableGit\bin\git.exe
-		echo set GIT_PYTHON_GIT_EXECUTABLE=%GIT%
+		echo set GIT_PYTHON_GIT_EXECUTABLE=%cd%\PortableGit\bin\git.exe
 		echo set VENV_DIR=
 		echo set COMMANDLINE_ARGS=--no-download-sd-model --medvram --xformers --no-half-vae --nowebui --api --api-log --port 7878
 
