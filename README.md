@@ -18,6 +18,7 @@ The application operates as follows:
 2. Run the script (`launcher.bat` on Windows or `launcher.bash` on Linux).
 3. Follow the steps provided in the launcher.
 4. If you don't have a dedicated graphics card, in the process file (`process.bat` on Windows or `process.bash` on Linux) inside the section `set COMMANDLINE_ARGS=` add `--precision full --no-half --skip-torch-cuda-test`, this is a file generated when executing the launcher script. But i don't recommande to use this program without dedicated graphics card because that can cause a lot of issues.
+5. If it still doesn't work try deleting the `xformer` argument in the same file.
 
 **Note:** During the first launch, there may be substantial downloads, so please be prepared for this process to take some time.
 
